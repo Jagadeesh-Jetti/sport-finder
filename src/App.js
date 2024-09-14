@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
 import { HomePage } from "./components/HomePage/HomePage";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <Routes>
@@ -9,4 +9,4 @@ function App() {
       </Routes>
     </div>
   );
-}
+};
